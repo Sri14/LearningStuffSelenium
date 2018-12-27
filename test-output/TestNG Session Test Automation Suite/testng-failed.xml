@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test thread-count="5" name="Different testing Feature Tests(failed)">
+    <classes>
+      <class name="com.test.TestNgFeatures">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.test.TestNgFeatures -->
+    </classes>
+  </test> <!-- Different testing Feature Tests(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->

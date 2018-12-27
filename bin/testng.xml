@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="RediffMail Automation pack" >
+  <test name="Lognin page Tests" >
+  
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"></parameter>
+  <parameter name="username" value="tester"></parameter>
+  <parameter name="password" value="password"></parameter>
+  
+    <classes>
+       <class name="com.parameters.ParametersTest" />
+    </classes>
+  
+  
+  </test>
+</suite>

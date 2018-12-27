@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumSessions by groups]">
+  <test thread-count="5" name="GRP-Title(failed)">
+    <groups>
+      <run>
+        <include name="Title"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.GoogleTest">
+        <methods>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- com.test.GoogleTest -->
+    </classes>
+  </test> <!-- GRP-Title(failed) -->
+</suite> <!-- Failed suite [SeleniumSessions by groups] -->

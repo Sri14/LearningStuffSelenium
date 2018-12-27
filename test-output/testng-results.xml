@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RediffMail Automation pack" duration-ms="9705" started-at="2018-12-09T21:49:50Z" finished-at="2018-12-09T21:50:00Z">
+    <groups>
+    </groups>
+    <test name="Lognin page Tests" duration-ms="9705" started-at="2018-12-09T21:49:50Z" finished-at="2018-12-09T21:50:00Z">
+      <class name="com.parameters.ParametersTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.parameters.ParametersTest@491cc5c9]" name="launchBrowser" duration-ms="4573" started-at="2018-12-09T21:49:50Z" finished-at="2018-12-09T21:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchurl(java.lang.String)[pri:1, instance:com.parameters.ParametersTest@491cc5c9]" name="launchurl" duration-ms="3318" started-at="2018-12-09T21:49:55Z" finished-at="2018-12-09T21:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://mail.rediff.com/cgi-bin/login.cgi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="username(java.lang.String)[pri:2, instance:com.parameters.ParametersTest@491cc5c9]" name="username" duration-ms="47" started-at="2018-12-09T21:49:58Z" finished-at="2018-12-09T21:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="password(java.lang.String)[pri:3, instance:com.parameters.ParametersTest@491cc5c9]" name="password" duration-ms="30" started-at="2018-12-09T21:49:58Z" finished-at="2018-12-09T21:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="submitButton()[pri:4, instance:com.parameters.ParametersTest@491cc5c9]" name="submitButton" duration-ms="462" started-at="2018-12-09T21:49:58Z" finished-at="2018-12-09T21:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButton -->
+        <test-method status="PASS" signature="checkTitle()[pri:5, instance:com.parameters.ParametersTest@491cc5c9]" name="checkTitle" duration-ms="13" started-at="2018-12-09T21:49:58Z" finished-at="2018-12-09T21:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.parameters.ParametersTest@491cc5c9]" name="quit" is-config="true" duration-ms="1221" started-at="2018-12-09T21:49:58Z" finished-at="2018-12-09T21:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.parameters.ParametersTest -->
+    </test> <!-- Lognin page Tests -->
+  </suite> <!-- RediffMail Automation pack -->
+</testng-results>
